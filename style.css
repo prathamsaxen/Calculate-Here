@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container
+{
+margin-top: 10vh;
+}
+.text-center
+{
+    text-align: center;
+}
+.flex
+{
+    display: flex;
+}
+.flex-colom
+{
+    flex-direction: column;
+}
+.flex-center
+{
+    justify-content: center;
+    align-items: center;
+}
+.input
+{
+    /* border: 2px solid grey; */
+    outline: none;
+    border: 0.5px solid white;
+    width: 245px;
+    height: 40px;
+    margin-top:20px;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.first-row
+{
+    margin-bottom: 20px;
+}
+.button
+{
+    padding: 20px;
+    cursor: pointer;
+    background-color:gray;
+    margin:6px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+.button:hover
+{
+    background-color: darkgrey;
+}
+.row
+{
+    margin: 10px 10px;
+}
+.footer
+{
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+    width: 100vw;
+    margin: auto;
+
+}
+.dark-grey
+{
+    background-color:gray;
+}
+.dark-grey:hover
+{
+    background-color: darkgrey;
+}
+.yellowish
+{
+    background-color: orange;
+}
+.yellowish:hover
+{
+    background-color: darkorange;
+}
